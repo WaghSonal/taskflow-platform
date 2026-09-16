@@ -1,0 +1,53 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Test results
+[Tt]est[Rr]esult*/
+[Cc]overage*[.]/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# EF Core
+*.mdf
+*.ldf
+*.ndf
+
+# ASP.NET Core secrets / local overrides — never commit real connection strings, JWT signing
+# keys, or other secrets. Use `dotnet user-secrets` or environment variables for real values;
+# appsettings.Development.json stays tracked since it currently holds only placeholder values.
+appsettings.*.local.json
+secrets.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# Rider
+*.sln.iml
